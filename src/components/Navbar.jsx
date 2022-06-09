@@ -21,7 +21,12 @@ import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 import logo from '../images/logo1.png';
 import { Link as GatsbyLink } from 'gatsby';
 
-const Links = ['Inicio', 'Productos', 'Nosotros', 'Contacto'];
+const Links = ['inicio', 'productos', 'nosotros', 'contacto'];
+
+function capitalize(str) {
+  const lower = str.toLowerCase();
+  return str.charAt(0).toUpperCase() + lower.slice(1);
+}
 
 const NavLink = (props) => (
   <Link
@@ -33,8 +38,8 @@ const NavLink = (props) => (
       textDecoration: 'none',
       bg: useColorModeValue('gray.200', 'gray.700'),
     }}
-    href={'#'}>
-    {props.link}
+    to={props.link !== "inicio" ? '/'+ props.link : "/"}>
+    {capitalize(props.link)}
   </Link>
 ); 
 
