@@ -1,0 +1,146 @@
+[
+  {
+    "header": "Monitoreo electrónico",
+    "imageUrl": "/images/products/electronico.png",
+    "inventario": [
+      "Equipo para monitoreo de presión arterial (Baumanometro) para muñeca y brazo",
+      "Oxímetro para dedo doble pantalla",
+      "Estetoscopios adulto dúplex y sencillo",
+      "Estetoscopios pediátricos dúplex y sencillo",
+      "Estuche de diagnóstico",
+      "Estuche de disección (12 piezas)",
+      "Glucómetros (kit lancetas y lancetero)",
+      "Doppler fetal pantalla",
+      "Micronebulizador con mascarilla adulto y pediátrico",
+      "Micronebulizador con boquilla"
+    ]
+  },
+  {
+    "header": "Material desechables",
+    "imageUrl": "/images/products/desechables.jpg",
+    "inventario": [
+      "Agujas",
+      "Jeringas",
+      "Bolsas para alimentación y vaso para muestras o de recolección taparosca 120 ml",
+      "Bolsa para drenaje urinario P/cama",
+      "Guantes de exploración cirujano ",
+      "Preservativos de látex ",
+      "Lancetas para dextrostix",
+      "Tiras reactivas para glucosa capilar",
+      "Sonda de orina (Foley silicón  y Nelaton de látex)",
+      "Abate lenguas de madera "
+    ]
+  },
+  {
+    "header": "Material de curación",
+    "imageUrl": "/images/products/cubrebocas.jpg",
+    "inventario": [
+      "Torundas de algodón y algodón plisado ",
+      "Tubo Cinta adhesiva y  transparente",
+      "Tubo cinta micropore  blanco y piel",
+      "Apósitos y gasas  en sobre estéril  ",
+      "Hypafix /(fijador de apósito)",
+      "Coverplast (bandita redonda) ",
+      "Apósito quirúrgico ",
+      "Almohadilla impreg. Alcohol curity (sencilla y doble capa)",
+      "Vendas  elástica y huata ",
+      "Pinzas quirúrgicas ",
+      "Hojas de bisturí estéril acero inoxidable p/mango",
+      "Cinta umbilical ",
+      "Pinza umbilical ",
+      "Cubrebocas adulto  tri capa",
+      "Mascarilla  adulto KN95",
+      "Equipo de venoclisis y llave  3 vías ",
+      "Campo desechable  estéril  40x 40 xm ",
+      "Campo hendido deséchale estéril 70x 70 cm",
+      "Botiquín de plástico rígido grande  50x40 cm"
+    ]
+  },
+  {
+    "header": "Material  RPBI y  de esterilización",
+    "imageUrl": "/images/products/bolsaEst.png",
+    "inventario": [
+      "Bolsas para  esterilizar ",
+      "Cita  testigo para esterilizar a vapor ",
+      "Bolsas para residuos biológicos roja , amarilla.",
+      "Recolector  de punzocortantes 1,4,8.5 y 13 lts.",
+      "Toalla interdoblada para manos  (sanitas)"
+    ]
+  },
+  {
+    "header": "Material kit de  Papanicolaou",
+    "imageUrl": "/images/products/papanic.png",
+    "inventario": [
+      "Aplicadores de algodón estéril ",
+      "Espátula ginecológica  de madera ",
+      "Laminillas ",
+      "Cepillo citológico  estéril y no estéril ",
+      "Espejo vaginal ",
+      "Aerosol fijador citológico cito-fix"
+    ]
+  },
+  {
+    "header": "Material para sutura",
+    "imageUrl": "/images/products/sutura.png",
+    "inventario": [
+      "Catguts crómicos y simples ",
+      "Nylon",
+      "Poliésteres ",
+      "Polipropilenos",
+      "Sedas negras",
+      "Suturas sintéticas absorbibles "
+    ]
+  },
+  {
+    "header": "Material de antisépticos y desinfectantes",
+    "imageUrl": "/images/products/antiseptico.png",
+    "inventario": [
+      "Antibenzil: Cloruro de Benzalconio 1% concentrado rojo ",
+      "Gel antibacterial ",
+      "Gafidex (glutaraldehido al 2%)",
+      "Germisin espuma y solución (yodo polivinil a l.8 y 1.1%)",
+      "Lubricaina (jalea con xilocaina)",
+      "Lubri G 135 grs (jalea lubricante)",
+      "Nina Scrub (gluconato de clorhexidina 4%)",
+      "Microdacyn 120 ml y 240 ml y 5 lts. ",
+      "Avagar antiséptico "
+    ]
+  },
+  {
+    "header": "Medias TED  y apoyo paciente en cama",
+    "imageUrl": "/images/products/termometro.png",
+    "inventario": [
+      "Medias TED rodilla, muslo cortas y largas",
+      "Orinal de plástico (pato) ",
+      "Orinal de plástico femenino ",
+      "Comodo de plástico adulto e infantil",
+      "Riñon de plástico ",
+      "Tiraleche de cristal ",
+      "Toalla humeda adulto incontinencia ",
+      "Pañal adulto predoblado ",
+      "Toalla para gineco-obstetricia ¿?",
+      "Lavaojos de plástico ",
+      "Termómetro  oral o axilar ",
+      "Termómetro clínico digital ",
+      "Termómetro para bebe digital de chupon ",
+      "Collarin cervical Ch,M,G",
+      "Bolsa para agua caliente o fria ",
+      "Compresa de gel frio-caliente 23x12 cm"
+    ]
+  },
+  {
+    "header": "Material Kit de ultrasonido",
+    "imageUrl": "/images/products/ultrasonido.png",
+    "inventario": [
+      "*Rollo papel mesa exploracion ",
+      "*Rollo tela  desechable mesa exploración ",
+      "Sabana desechable para mesa exploración ",
+      "*Papel fotograficos tamaño carta para impresora ",
+      "*Rollo papel fotografico para impresora ",
+      "*Gel ultrasonic galon y de  250 gr (carboxipolimetileno al 7%)",
+      "*Calentador para bote de gel ultrasonido",
+      "Bata paciente adulto",
+      "Fundas lubricadas para transductor "
+    ]
+  }
+]
