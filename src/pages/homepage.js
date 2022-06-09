@@ -7,7 +7,7 @@ import Layout from '../layouts';
 
 export default function Homepage() {
   return (
-    <>
+    <>//
     <Layout>
       <Hero />
       <Features />
