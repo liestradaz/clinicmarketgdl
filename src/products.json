@@ -1,7 +1,7 @@
 [
   {
     "header": "Monitoreo electrónico",
-    "imageUrl": "../images/products/electronico.png",
+    "imageUrl": "../../images/products/electronico.png",
     "inventario": [
       "Equipo para monitoreo de presión arterial (Baumanometro) para muñeca y brazo",
       "Oxímetro para dedo doble pantalla",
@@ -17,7 +17,7 @@
   },
   {
     "header": "Material desechables",
-    "imageUrl": "../images/products/desechables.jpg",
+    "imageUrl": "../../images/products/desechables.jpg",
     "inventario": [
       "Agujas",
       "Jeringas",
@@ -33,7 +33,7 @@
   },
   {
     "header": "Material de curación",
-    "imageUrl": "../images/products/cubrebocas.jpg",
+    "imageUrl": "../../images/products/cubrebocas.jpg",
     "inventario": [
       "Torundas de algodón y algodón plisado ",
       "Tubo Cinta adhesiva y  transparente",
@@ -58,7 +58,7 @@
   },
   {
     "header": "Material  RPBI y  de esterilización",
-    "imageUrl": "../images/products/bolsaEst.png",
+    "imageUrl": "../../images/products/bolsaEst.png",
     "inventario": [
       "Bolsas para  esterilizar ",
       "Cita  testigo para esterilizar a vapor ",
@@ -69,7 +69,7 @@
   },
   {
     "header": "Material kit de  Papanicolaou",
-    "imageUrl": "../images/products/papanic.png",
+    "imageUrl": "../../images/products/papanic.png",
     "inventario": [
       "Aplicadores de algodón estéril ",
       "Espátula ginecológica  de madera ",
@@ -81,7 +81,7 @@
   },
   {
     "header": "Material para sutura",
-    "imageUrl": "../images/products/sutura.png",
+    "imageUrl": "../../images/products/sutura.png",
     "inventario": [
       "Catguts crómicos y simples ",
       "Nylon",
@@ -93,7 +93,7 @@
   },
   {
     "header": "Material de antisépticos y desinfectantes",
-    "imageUrl": "../images/products/antiseptico.png",
+    "imageUrl": "../../images/products/antiseptico.png",
     "inventario": [
       "Antibenzil: Cloruro de Benzalconio 1% concentrado rojo ",
       "Gel antibacterial ",
@@ -108,7 +108,7 @@
   },
   {
     "header": "Medias TED  y apoyo paciente en cama",
-    "imageUrl": "../images/products/termometro.png",
+    "imageUrl": "../../images/products/termometro.png",
     "inventario": [
       "Medias TED rodilla, muslo cortas y largas",
       "Orinal de plástico (pato) ",
@@ -130,7 +130,7 @@
   },
   {
     "header": "Material Kit de ultrasonido",
-    "imageUrl": "../images/products/ultrasonido.png",
+    "imageUrl": "../../images/products/ultrasonido.png",
     "inventario": [
       "*Rollo papel mesa exploracion ",
       "*Rollo tela  desechable mesa exploración ",
