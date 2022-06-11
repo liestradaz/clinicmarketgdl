@@ -1,26 +1,24 @@
 import * as React from 'react'
-import { Text, Stack, Flex, Image } from "@chakra-ui/react";
+import { Text, Stack, Flex, Image, Heading } from "@chakra-ui/react";
 
 export default function FeatureCard(props) {
   const { title, text, image } = props;
 
   return (
-    <Stack bg="#3A6DCC" align="center" p={"2"} rounded={"30px"}>
+    <Stack bg="#3A6DCC" align="center" p={6} rounded={"30px"} h={"3xs"}>
       <Flex
-        w={16}
-        h={16}
+        w={20}
+        h={20}
         align={"center"}
         justify={"center"}
-        mt={5}
-        mb={1}
       >
         <Image src={image} />
       </Flex>
 
-      <Text color={"white"} fontWeight={600}>
+      <Heading size='md' color={"white"}  textAlign={"center"}>
         {title}
-      </Text>
-      <Text color={"white"}>{text}</Text>
+      </Heading>
+      <Text color={"white"} textAlign={"center"}>{text}</Text>
     </Stack>
   );
 }
