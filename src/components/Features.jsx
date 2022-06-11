@@ -6,7 +6,7 @@ import syringe from "../images/features/syringe.svg"
 export default function Features() {
   return (
     <>
-      <SimpleGrid columns={{ base: 1, md: 4 }} spacing={10} mt={5} mx={5}>
+      <SimpleGrid columns={{ base: 1, md: 4 }} spacing={1} mt={5} mx={10}>
       <FeatureCard
           image={syringe}
           title={"Amplio surtido en insumos"}

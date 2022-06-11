@@ -10,6 +10,7 @@ import {
   Image,
   Center,
   VStack,
+  Container
 } from "@chakra-ui/react";
 import productsList from "../products.json";
 
@@ -22,7 +23,8 @@ export default function Products() {
 
   return (
     <>
-      <Wrap spacing="50px" justify="center">
+    <Container maxW='7xl'>
+      <Wrap spacing="50px" justify="center" py={10}>
         {productHeader &&
           productHeader.map((elem, idx) => (
             <WrapItem key={idx}>
@@ -31,9 +33,6 @@ export default function Products() {
                   <Box
                     as="Center"
                     pt={"4"}
-                    
-                    /* w="277px"
-                  h="368px" */
                   >
                     <Image
                       w="217px"
@@ -44,7 +43,7 @@ export default function Products() {
                     />
                   </Box>
                   <VStack pt={1} align={"center"}>
-                    <Text fontSize={"lg"} fontWeight={700} color="black">
+                    <Text fontSize={"lg"} fontWeight={700} color="black" textAlign={"center"}>
                       {elem.header}
                     </Text>
                   </VStack>
@@ -53,6 +52,7 @@ export default function Products() {
             </WrapItem>
           ))}
       </Wrap>
+      </Container>
     </>
   );
 }
