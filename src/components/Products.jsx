@@ -4,30 +4,45 @@ import {
   Wrap,
   WrapItem,
   Box,
-  Flex,
+  Link,
   Text,
-  useBreakpointValue,
   Image,
   Center,
   VStack,
   Container
 } from "@chakra-ui/react";
-import productsList from "../products.json";
+import { Link as GatsbyLink, graphql, useStaticQuery } from 'gatsby';
+import productsList from "../data/products.json";
 
-export default function Products() {
+export default function Products(props) {
   const [productHeader, setProductHeader] = useState([]);
+  /* console.log("Data:", props) */
 
   useEffect(() => {
     setProductHeader(productsList);
   }, []);
 
+  const data = useStaticQuery(graphql`
+    {
+      allProductsJson {
+        nodes {
+          header
+          imageUrl
+          inventario
+          productPath: gatsbyPath(filePath: "/productos/{ProductsJson.header}")
+        }
+      }
+    }
+  `)
+
   return (
     <>
     <Container maxW='7xl'>
-      <Wrap spacing="50px" justify="center" py={10}>
+      <Wrap spacing="50px" justify="Center" py={10}>
         {productHeader &&
-          productHeader.map((elem, idx) => (
+          data.allProductsJson.nodes.map((elem, idx) => (
             <WrapItem key={idx}>
+              <Link as={GatsbyLink} to={elem.productPath} style={{textDecoration: "none"}}>
               <Center rounded={"lg"} shadow="lg" _hover={{shadow:"dark-lg"}}>
                 <Box w="297px" h="388px" >
                   <Box
@@ -49,6 +64,7 @@ export default function Products() {
                   </VStack>
                 </Box>
               </Center>
+              </Link>
             </WrapItem>
           ))}
       </Wrap>
