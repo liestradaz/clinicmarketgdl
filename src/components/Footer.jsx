@@ -1,22 +1,15 @@
 import * as React from "react";
 import {
-  Wrap,
-  WrapItem,
   Box,
-  Flex,
   Text,
-  useBreakpointValue,
-  Image,
-  Center,
   Stack,
   HStack,
   Container,
   SimpleGrid,
   Link,
   IconButton,
-  Divider,
 } from "@chakra-ui/react";
-import { BsFacebook, BsInstagram, BsPerson, BsTelephone } from "react-icons/bs";
+import { BsFacebook, BsInstagram} from "react-icons/bs";
 
 export default function Footer() {
   return (

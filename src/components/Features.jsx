@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Box, SimpleGrid, Icon } from "@chakra-ui/react";
+import { SimpleGrid} from "@chakra-ui/react";
 import FeatureCard from "./FeatureCard";
 import syringe from "../images/features/syringe.svg"
 import star from "../images/features/star.svg"

@@ -67,9 +67,9 @@ export default function Nosotros() {
           </Stack>
           <Flex>
             <Flex as='flex' boxSize={"xl"} flexDirection={"column"} justify={"flex-end"}>
-              <Box bg={"white"} p={4} borderLeftRadius="lg" borderTopRadius="lg">
+              <Box bg={"white"} opacity={.9} p={4} borderLeftRadius="lg" borderTopRadius="lg">
                 <Heading textAlign={"center"} size='lg' my={2}>Misión</Heading>
-                <Text color={'gray.500'} fontSize={'lg'}>
+                <Text color={'gray.500'} fontSize={'lg'} mb={5}>
                   Proveer al personal de salud de los insumos médicos de mayor calidad e innovación, al mejor precio posible y de la forma más rápida, sin importar el rango de especialización de estos.            </Text>
                 <Heading textAlign={"center"} size='lg' my={2}>Visión</Heading>
                 <Text color={'gray.500'} fontSize={'lg'}>
@@ -81,24 +81,21 @@ export default function Nosotros() {
       </Container>
 
       {/* Box three */}
-      <Container maxW={'5xl'} p={10} centerContent boxShadow={'2xl'}>
+      <Container maxW={'5xl'} p={10} centerContent boxShadow={'2xl'} mb={6}>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Stack spacing={4} justify='center'>
             <Heading textAlign="center">Nuestros valores</Heading>
             <UnorderedList>
               {Object.keys(valores).map((val, idx) => (
                 <ListItem>
-                  <Flex>
-                  <Text as='u' color={'gray.500'} fontSize={'lg'}>
-                  {val}
-                  </Text>
-                  <Text color={'gray.500'} fontSize={'lg'}>
-                  {`: ${valores[val]}`}
-                  </Text>
-                  </Flex>
+                    <Text color={'gray.500'} fontSize={'lg'}>
+                      <Text as='u' color={'gray.500'} fontSize={'lg'}>
+                        {`${val}`}
+                      </Text>
+                      {`: ${valores[val]}`}
+                    </Text>
                 </ListItem>
               ))}
-
             </UnorderedList>
           </Stack>
           <Flex >

@@ -7,13 +7,12 @@ import {
   Heading,
   Text,
   Stack,
-  StackDivider,
-  Icon,
-  useColorModeValue,
   Link,
-  Button
+  Button,
+  Center
 } from "@chakra-ui/react";
 import aboutUsImg from "../images/aboutUs.png";
+import { Link as GatsbyLink } from "gatsby";
 
 export default function AboutUs() {
   return (
@@ -26,7 +25,9 @@ export default function AboutUs() {
             insumos médicos al personal de la salud, en el sector particular e
             instituciones, dentro de la Zona Metropolitana de Guadalajara.
           </Text>
-          <Link style={{textDecoration: "none"}}><Button colorScheme='blue' >Leer más</Button></Link>
+          <Center>
+          <Link as={GatsbyLink} to="nosotros" style={{textDecoration: "none"}}><Button colorScheme='blue' >Leer más</Button></Link>
+          </Center>
         </Stack>
         <Flex>
           <Image

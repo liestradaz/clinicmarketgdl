@@ -28,5 +28,16 @@ module.exports = {
       }
     },
     `gatsby-transformer-json`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "assets",
+        path: `${__dirname}/src`,
+      }
+    },
+    
   ],
 }
