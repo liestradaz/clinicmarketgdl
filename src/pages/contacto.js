@@ -1,10 +1,10 @@
 import * as React from 'react'
-import ContactForm from '../components/ContactForm';
+import ContactFormBox from '../components/ContactFormBox';
 
 export default function Nosotros() {
     return (
       <>
-        <ContactForm />
+        <ContactFormBox />
       </>
     );
   }

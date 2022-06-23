@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import AboutUs from "../components/AboutUs";
 import Products from "../components/Products";
-import ContactForm from '../components/ContactForm';
+import ContactFormBox from '../components/ContactFormBox';
 
 export default function Homepage() {
   
@@ -13,7 +13,7 @@ export default function Homepage() {
       <Features />
       <AboutUs />
       <Products />
-      <ContactForm />
+      <ContactFormBox />
     </>
   );
 }

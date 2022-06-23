@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Products from '../components/Products';
-import ContactForm from '../components/ContactForm';
+import ContactFormBox from '../components/ContactFormBox';
 import {
     Heading,
 } from "@chakra-ui/react";
@@ -10,7 +10,7 @@ export default function Nosotros() {
         <>
             <Heading textAlign="center" mt={6}>Nuestros Productos</Heading>
             <Products />
-            <ContactForm />
+            <ContactFormBox />
 
         </>
     );
