@@ -18,7 +18,6 @@ import {
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { MdPhone, MdEmail, MdLocationOn } from "react-icons/md";
 import bgnd from "../images/bgForm.png";
-import { useForm, ValidationError } from "@formspree/react";
 
 export default function ContactFormBox(props) {
   return (
@@ -60,9 +59,11 @@ export default function ContactFormBox(props) {
                           </HStack>
                           <HStack alignItems="flex-start">
                             <Icon as={MdEmail} mt={1} />
-                            <Text mt={{ sm: 3, md: 3, lg: 5 }}>
+                            <Link href="mailto:clinicmarketgdl@hotmail.com" isExternal>
+                            <Text>
                               clinicmarketgdl@hotmail.com
                             </Text>
+                            </Link>
                           </HStack>
                           <HStack alignItems="flex-start">
                             <Icon as={MdLocationOn} mt={1} />
