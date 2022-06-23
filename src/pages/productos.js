@@ -8,7 +8,6 @@ import {
 export default function Nosotros() {
     return (
         <>
-            <Heading textAlign="center" mt={6}>Nuestros Productos</Heading>
             <Products />
             <ContactFormBox />
 

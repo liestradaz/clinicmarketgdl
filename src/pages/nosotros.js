@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import nosotros1 from "../images/nosotros/nosotros1.png"
 import nosotros2 from "../images/nosotros/nosotros2.png"
+import nosotros3 from "../images/nosotros/nosotros3.png"
 
 const valores = {
   Integridad: "Fieles a nuestros principios e ideales",
@@ -104,7 +105,7 @@ export default function Nosotros() {
                 h="100%"
                 rounded={'md'}
                 alt={'feature image'}
-                src={nosotros1}
+                src={nosotros3}
                 objectFit={'cover'}
               />
             </Box>

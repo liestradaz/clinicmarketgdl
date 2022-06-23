@@ -9,6 +9,7 @@ import {
   Center,
   VStack,
   Container,
+  Heading
 } from "@chakra-ui/react";
 import { Link as GatsbyLink, graphql, useStaticQuery } from "gatsby";
 import productsList from "../data/products.json";
@@ -16,7 +17,6 @@ import { GatsbyImage} from "gatsby-plugin-image";
 
 export default function Products(props) {
   const [productHeader, setProductHeader] = useState([]);
-  /* console.log("Data:", props) */
 
   useEffect(() => {
     setProductHeader(productsList);
@@ -47,6 +47,7 @@ export default function Products(props) {
   return (
     <>
       <Container maxW="7xl">
+      <Heading textAlign="center" mt={6}>Nuestros Productos</Heading>
         <Wrap spacing="50px" justify="Center" py={10}>
           {productHeader &&
             data.allProductsJson.nodes.map((elem, idx) => (
