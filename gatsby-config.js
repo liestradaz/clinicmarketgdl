@@ -1,7 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `clinicmarketgdl`,
+    title: `Clinic Market Guadalajara`,
+    titleTemplate: "%s · Venta de Insumos Médicos",
+    description:
+      "Empresa mexicana especializada en la venta de insumos médicos a instituciones y particulares. Servicio a domicilio Guadalajara.",
     siteUrl: `https://www.clinicmarketguadalajara.com`,
+    image: "/logo.png", // Path to the image placed in the 'static' folder, in the project's root directory.
+    keywords: `insumos, medicos, guadalajara, clinica, hospital, doctor, cubrebocas, anticepticos, estetoscopio, termometro`,
   },
   plugins: [
     {
@@ -38,6 +43,6 @@ module.exports = {
         path: `${__dirname}/src`,
       }
     },
-    
+    `gatsby-plugin-react-helmet`,
   ],
 }
