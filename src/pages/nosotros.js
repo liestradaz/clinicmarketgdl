@@ -45,6 +45,7 @@ export default function Nosotros() {
             <Box as='center' boxSize={"xl"}>
               <Image
                 h="100%"
+                w="100%"
                 rounded={'md'}
                 alt={'feature image'}
                 src={nosotros1}
@@ -103,6 +104,7 @@ export default function Nosotros() {
             <Box as='center' boxSize={"xl"}>
               <Image
                 h="100%"
+                w="100%"
                 rounded={'md'}
                 alt={'feature image'}
                 src={nosotros3}
