@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <SEO title="clinic Market Guadalajara" pathname="/" />
+      <SEO title="Clinic Market Guadalajara" pathname="/" />
       <main>{children}</main>
       <Footer />
     </>
