@@ -1,146 +1,104 @@
 [
   {
-    "header": "Monitoreo electrónico",
+    "header": "MONITOREO ELECTRÓNICO",
     "imageUrl": "../images/products/electronico.jpg",
     "inventario": [
-      "Equipo para monitoreo de presión arterial (Baumanometro) para muñeca y brazo",
-      "Oxímetro para dedo doble pantalla",
+      "Doppler fetal con pantalla",
+      "Equipo para monitoreo de presión arterial (Baumanómetro para muñeca y brazo)",
       "Estetoscopios adulto dúplex y sencillo",
-      "Estetoscopios pediátricos dúplex y sencillo",
-      "Estuche de diagnóstico",
-      "Estuche de disección (12 piezas)",
-      "Glucómetros (kit lancetas y lancetero)",
-      "Doppler fetal pantalla",
-      "Micronebulizador con mascarilla adulto y pediátrico",
-      "Micronebulizador con boquilla"
+      "Glucómetro y lancetas",
+      "Micronebulizador con boquilla",
+      "Oxímetro (dedo) doble pantalla"
     ]
   },
   {
-    "header": "Material desechables",
+    "header": "MATERIAL MEDICO DESECHABLE",
     "imageUrl": "../images/products/desechables.jpg",
     "inventario": [
-      "Agujas",
-      "Jeringas",
-      "Bolsas para alimentación y vaso para muestras o de recolección taparosca 120 ml",
-      "Bolsa para drenaje urinario P/cama",
-      "Guantes de exploración cirujano ",
-      "Preservativos de látex ",
+      "Agujas y jeringas",
+      "Algodón",
+      "Guantes de exploración",
       "Lancetas para dextrostix",
-      "Tiras reactivas para glucosa capilar",
-      "Sonda de orina (Foley silicón  y Nelaton de látex)",
-      "Abate lenguas de madera "
+      "Preservativos de látex",
+      "Vaso de recolección de muestras (tapa rosca)"
     ]
   },
   {
-    "header": "Material de curación",
+    "header": "MATERIAL DE CURACION",
     "imageUrl": "../images/products/curacion.jpg",
     "inventario": [
-      "Torundas de algodón y algodón plisado ",
-      "Tubo Cinta adhesiva y  transparente",
-      "Tubo cinta micropore  blanco y piel",
-      "Apósitos y gasas  en sobre estéril  ",
-      "Hypafix /(fijador de apósito)",
-      "Coverplast (bandita redonda) ",
-      "Apósito quirúrgico ",
-      "Almohadilla impreg. Alcohol curity (sencilla y doble capa)",
-      "Vendas  elástica y huata ",
-      "Pinzas quirúrgicas ",
-      "Hojas de bisturí estéril acero inoxidable p/mango",
-      "Cinta umbilical ",
-      "Pinza umbilical ",
-      "Cubrebocas adulto  tri capa",
-      "Mascarilla  adulto KN95",
-      "Equipo de venoclisis y llave  3 vías ",
-      "Campo desechable  estéril  40x 40 xm ",
-      "Campo hendido deséchale estéril 70x 70 cm",
-      "Botiquín de plástico rígido grande  50x40 cm"
+      "Campo desechable estéril 40x40 mm",
+      "Cinta adhesiva (micropore blanca y color piel)",
+      "Coverplast (bandita redonda)",
+      "Gasas estéril",
+      "Hypafix (fijador de apósito)",
+      "Mascarillas (cubrebocas) KN95 y tricapa colores",
+      "Vendas elásticas"
     ]
   },
   {
-    "header": "Material  RPBI y  de esterilización",
+    "header": "MATERIAL RPBI Y DE ESTERILIZACION",
     "imageUrl": "../images/products/material_rpbi.jpg",
     "inventario": [
-      "Bolsas para  esterilizar ",
-      "Cita  testigo para esterilizar a vapor ",
-      "Bolsas para residuos biológicos roja , amarilla.",
-      "Recolector  de punzocortantes 1,4,8.5 y 13 lts.",
-      "Toalla interdoblada para manos  (sanitas)"
+      "Bolsas papel para esterilizar",
+      "Bolsas de residuos biológicos (roja, amarilla)",
+      "Recolector de punzocortantes 1,4,8 y 13 lts.",
+      "Toalla papel interdoblada para manos (sanitas)"
     ]
   },
   {
-    "header": "Material kit de  Papanicolaou",
+    "header": "MATERIAL KIT DE PAPANICOLAOU",
     "imageUrl": "../images/products/papanic.png",
     "inventario": [
-      "Aplicadores de algodón estéril ",
-      "Espátula ginecológica  de madera ",
-      "Laminillas ",
-      "Cepillo citológico  estéril y no estéril ",
-      "Espejo vaginal ",
-      "Aerosol fijador citológico cito-fix"
+      "Aerosol fijador citológico",
+      "Cepillo citológico no estéril",
+      "Espátula ginecológica de madera",
+      "Espejo Vaginal (chico, mediano)",
+      "Laminillas"
     ]
   },
   {
-    "header": "Material para sutura",
+    "header": "MATERIAL PARA SUTURA",
     "imageUrl": "../images/products/sutura.png",
     "inventario": [
-      "Catguts crómicos y simples ",
-      "Nylon",
-      "Poliésteres ",
-      "Polipropilenos",
+      "Catguts crómicos y simples",
+      "Naylon, poliésteres, polipropilenos",
       "Sedas negras",
-      "Suturas sintéticas absorbibles "
+      "Suturas sintéticas absorbibles"
     ]
   },
   {
-    "header": "Material de antisépticos y desinfectantes",
+    "header": "MATERIAL ANTISEPTICOS Y DESINFECTANTES",
     "imageUrl": "../images/products/antiseptico.jpg",
     "inventario": [
-      "Antibenzil: Cloruro de Benzalconio 1% concentrado rojo ",
-      "Gel antibacterial ",
-      "Gafidex (glutaraldehido al 2%)",
-      "Germisin espuma y solución (yodo polivinil a l.8 y 1.1%)",
-      "Lubricaina (jalea con xilocaina)",
-      "Lubri G 135 grs (jalea lubricante)",
-      "Nina Scrub (gluconato de clorhexidina 4%)",
-      "Microdacyn 120 ml y 240 ml y 5 lts. ",
-      "Avagar antiséptico "
+      "Avagar antisético",
+      "Antibenzil: Cloruro de Benzalconio 1%)",
+      "Gel antibacterial",
+      "Gafidex (glutaraldehido 2%)",
+      "Germisin espuma y solución (yodo polivinil al 1.8 y 1.1%)",
+      "Nina Scrub (gluconato de clorhexidina 4%)"
     ]
   },
   {
-    "header": "Medias TED  y apoyo paciente en cama",
+    "header": "MEDIAS TED Y APOYO PACIENTE EN CAMA",
     "imageUrl": "../images/products/mediated.jpg",
     "inventario": [
-      "Medias TED rodilla, muslo cortas y largas",
-      "Orinal de plástico (pato) ",
-      "Orinal de plástico femenino ",
-      "Comodo de plástico adulto e infantil",
-      "Riñon de plástico ",
-      "Tiraleche de cristal ",
-      "Toalla humeda adulto incontinencia ",
-      "Pañal adulto predoblado ",
-      "Toalla para gineco-obstetricia ¿?",
-      "Lavaojos de plástico ",
-      "Termómetro  oral o axilar ",
-      "Termómetro clínico digital ",
-      "Termómetro para bebe digital de chupon ",
-      "Collarin cervical Ch,M,G",
-      "Bolsa para agua caliente o fria ",
-      "Compresa de gel frio-caliente 23x12 cm"
+      "Compresa de gel frio-caliente",
+      "Medias TED rodilla, muslo y pantimedia",
+      "Orinal de plástico (mujer-hombre)",
+      "Pañal adulto predoblado",
+      "Termómetro oral, axilar y digital"
     ]
   },
   {
-    "header": "Material Kit de ultrasonido",
+    "header": "MATERIAL KIT DE ULTRASONIDO",
     "imageUrl": "../images/products/ultrasonido.png",
     "inventario": [
-      "*Rollo papel mesa exploracion ",
-      "*Rollo tela  desechable mesa exploración ",
-      "Sabana desechable para mesa exploración ",
-      "*Papel fotograficos tamaño carta para impresora ",
-      "*Rollo papel fotografico para impresora ",
-      "*Gel ultrasonic galon y de  250 gr (carboxipolimetileno al 7%)",
-      "*Calentador para bote de gel ultrasonido",
-      "Bata paciente adulto",
-      "Fundas lubricadas para transductor "
+      "Bata desechable para paciente",
+      "Equipo eléctrico para calentador de gel",
+      "Gel para ultrasonido",
+      "Papel fotográfico tamaño carta y rollo térmico para impresora.",
+      "Rollo de papel mesa exploración (blanco y huellas colores)"
     ]
   }
 ]

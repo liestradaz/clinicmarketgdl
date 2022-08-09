@@ -69,10 +69,10 @@ export default function Products(props) {
                           alt={elem.header}
                         />
                       </Box>
-                      <VStack pt={1} align={"center"}>
+                      <VStack py={2} align={"center"}>
                         <Text
                           fontSize={"lg"}
-                          fontWeight={700}
+                          fontWeight={650}
                           color="black"
                           textAlign={"center"}
                         >
