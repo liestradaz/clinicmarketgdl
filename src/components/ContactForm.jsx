@@ -1,9 +1,10 @@
 import * as React from "react";
-import { useState } from "react";
+import { useState} from "react";
 import {
   Box,
   Button,
   VStack,
+  HStack,
   FormControl,
   FormLabel,
   Input,
@@ -12,27 +13,38 @@ import {
   Textarea,
   Alert,
   AlertIcon,
-  Text
+  Text,
+  Container,
 } from "@chakra-ui/react";
 import { BsPerson, BsTelephone } from "react-icons/bs";
+import { AddIcon } from "@chakra-ui/icons";
 import { MdOutlineEmail } from "react-icons/md";
 import { useForm, ValidationError } from "@formspree/react";
+
 
 export default function ContactForm(props) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [state, handleSubmit, reset] = useForm("mnqwyvar");
 
-  const [state, handleSubmit] = useForm("mnqwyvar");
-/*   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
-  } */
+  /* testing form */
+  /* const [state, handleSubmit, reset] = useForm("maykyqov"); */
 
   const nameInputHandler = (event) => setName(event.target.value);
   const phoneInputHandler = (event) => setPhone(event.target.value);
   const emailInputHandler = (event) => setEmail(event.target.value);
   const messageInputHandler = (event) => setMessage(event.target.value);
+  
+  const resetInputs = () => {
+    setName("");
+    setPhone("");
+    setEmail("");
+    setMessage("");
+    //Reset formspree state
+    reset()
+  };
 
   return (
     <>
@@ -103,8 +115,8 @@ export default function ContactForm(props) {
             <FormControl isRequired>
               <FormLabel htmlFor="message">Mensaje</FormLabel>
               <Textarea
-              id="message"
-              name="message"
+                id="message"
+                name="message"
                 size="md"
                 value={message}
                 onChange={messageInputHandler}
@@ -121,17 +133,47 @@ export default function ContactForm(props) {
               colorScheme="blue"
               rounded={"full"}
               disabled={state.submitting || state.succeeded}
+              display={state.succeeded ? "none" : "inline"}
             >
               Enviar Mensaje
             </Button>
-            {state.succeeded && <>
-                <Alert status='success'>
-                    <AlertIcon />
-                    <Text>
-                    ¡Mensaje enviado!
-                    </Text>
-                </Alert>
-            </>}
+
+            <Button
+                onClick={resetInputs}
+                variant={"solid"}
+                rounded={"full"}
+                colorScheme={"blue"}
+                leftIcon={<AddIcon />}
+                display={state.succeeded ? "inline": "none"}
+              >
+                Cotizar otro producto
+              </Button>
+
+            {state.succeeded && (
+              <>
+                <Container maxW={"xs"}>
+                  <Alert status="success" borderRadius="lg">
+                    <VStack>
+                      <HStack>
+                        <AlertIcon />
+                        <Text fontWeight={"700"} noOfLines={3}>
+                          ¡Mensaje enviado!
+                        </Text>
+                      </HStack>
+                      <Text
+                        as="i"
+                        fontSize="sm"
+                        fontWeight={"600"}
+                        noOfLines={3}
+                        textAlign={"center"}
+                      >
+                        Uno de nuestros asistentes te atendera a la brevedad.
+                      </Text>
+                    </VStack>
+                  </Alert>
+                </Container>
+              </>
+            )}
           </VStack>
         </form>
       </Box>

@@ -25,7 +25,7 @@
   },
   {
     "header": "MATERIAL DE CURACION",
-    "imageUrl": "../images/products/curacion.jpg",
+    "imageUrl": "../images/products/curacion.png",
     "inventario": [
       "Campo desechable estéril 40x40 mm",
       "Cinta adhesiva (micropore blanca y color piel)",
@@ -69,7 +69,7 @@
   },
   {
     "header": "MATERIAL ANTISEPTICOS Y DESINFECTANTES",
-    "imageUrl": "../images/products/antiseptico.jpg",
+    "imageUrl": "../images/products/antiseptico.png",
     "inventario": [
       "Avagar antisético",
       "Antibenzil: Cloruro de Benzalconio 1%)",
