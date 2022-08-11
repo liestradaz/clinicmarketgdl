@@ -15,7 +15,7 @@ import { HamburgerIcon, CloseIcon, AddIcon } from "@chakra-ui/icons";
 import logo from "../images/logo1.png";
 import { Link as GatsbyLink } from "gatsby";
 
-const Links = ["inicio", "productos", "nosotros", "contacto"];
+const Links = ["inicio", "nosotros", "productos", "contacto"];
 
 function capitalize(str) {
   const lower = str.toLowerCase();

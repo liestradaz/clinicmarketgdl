@@ -1,7 +1,7 @@
 [
   {
     "header": "MONITOREO ELECTRÓNICO",
-    "imageUrl": "../images/products/electronico.jpg",
+    "imageUrl": "../images/products/electronico.png",
     "inventario": [
       "Doppler fetal con pantalla",
       "Equipo para monitoreo de presión arterial (Baumanómetro para muñeca y brazo)",
@@ -13,7 +13,7 @@
   },
   {
     "header": "MATERIAL MEDICO DESECHABLE",
-    "imageUrl": "../images/products/desechables.jpg",
+    "imageUrl": "../images/products/desechables.png",
     "inventario": [
       "Agujas y jeringas",
       "Algodón",
@@ -25,7 +25,7 @@
   },
   {
     "header": "MATERIAL DE CURACION",
-    "imageUrl": "../images/products/curacion.jpg",
+    "imageUrl": "../images/products/curacion.png",
     "inventario": [
       "Campo desechable estéril 40x40 mm",
       "Cinta adhesiva (micropore blanca y color piel)",
@@ -38,7 +38,7 @@
   },
   {
     "header": "MATERIAL RPBI Y DE ESTERILIZACION",
-    "imageUrl": "../images/products/material_rpbi.jpg",
+    "imageUrl": "../images/products/material_rpbi.png",
     "inventario": [
       "Bolsas papel para esterilizar",
       "Bolsas de residuos biológicos (roja, amarilla)",
@@ -69,7 +69,7 @@
   },
   {
     "header": "MATERIAL ANTISEPTICOS Y DESINFECTANTES",
-    "imageUrl": "../images/products/antiseptico.jpg",
+    "imageUrl": "../images/products/antiseptico.png",
     "inventario": [
       "Avagar antisético",
       "Antibenzil: Cloruro de Benzalconio 1%)",
@@ -81,7 +81,7 @@
   },
   {
     "header": "MEDIAS TED Y APOYO PACIENTE EN CAMA",
-    "imageUrl": "../images/products/mediated.jpg",
+    "imageUrl": "../images/products/mediated.png",
     "inventario": [
       "Compresa de gel frio-caliente",
       "Medias TED rodilla, muslo y pantimedia",
