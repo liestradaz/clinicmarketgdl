@@ -28,8 +28,7 @@ export default function StickyBar() {
           spacing={2}
           justify={"center"}
           direction={useBreakpointValue(
-            { base: "column", sm: "column", md: "row", lg:"row", xl:"row", '2xl':"row" },
-            { ssr: false }
+            { base: "column", sm: "column", md: "row", lg:"row", xl:"row", '2xl':"row" }
           )}
         >
           <Text fontWeight={"500"}>
