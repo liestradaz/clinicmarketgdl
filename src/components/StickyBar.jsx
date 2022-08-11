@@ -28,7 +28,7 @@ export default function StickyBar() {
           spacing={2}
           justify={"center"}
           direction={useBreakpointValue(
-            { base: "row", sm: "column", md: "row" },
+            { base: "column", sm: "column", md: "row", lg:"row", xl:"row", '2xl':"row" },
             { ssr: false }
           )}
         >
