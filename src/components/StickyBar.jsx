@@ -5,8 +5,6 @@ import {
   Icon,
   Link,
   HStack,
-  VStack,
-  SimpleGrid,
   Stack,
   useBreakpointValue,
 } from "@chakra-ui/react";
@@ -30,7 +28,7 @@ export default function StickyBar() {
           spacing={2}
           justify={"center"}
           direction={useBreakpointValue(
-            { base: "column", sm: "column", md: "row" },
+            { base: "row", sm: "column", md: "row" },
             { ssr: false }
           )}
         >
