@@ -14,7 +14,7 @@ import {
   WrapItem,
   Link,
 } from "@chakra-ui/react";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { MdPhone, MdEmail, MdLocationOn } from "react-icons/md";
 import bgnd from "../images/bgForm.png";
 
@@ -46,7 +46,7 @@ export default function ContactFormBox(props) {
                     >
                       <Heading>Contacto</Heading>
                       <Text mt={{ sm: 3, md: 3, lg: 5 }} color="white.500">
-                        Llena el formulario con tu mensaje
+                        Llena el formulario con tu mensaje o escríbenos via WhatsApp, dando click en el icono. ¡Nos pondremos en contacto!
                       </Text>
                       <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                         <VStack pl={0} spacing={3} alignItems="flex-start">
@@ -80,6 +80,19 @@ export default function ContactFormBox(props) {
                         alignItems="flex-start"
                       >
                         <Link
+                          href="https://api.whatsapp.com/send?phone=523322579557"
+                          isExternal
+                        >
+                          <IconButton
+                            aria-label="whastapp"
+                            variant="ghost"
+                            size="lg"
+                            isRound={true}
+                            _hover={{ bg: "#0D74FF" }}
+                            icon={<BsWhatsapp size="28px" />}
+                          />
+                        </Link>
+                        <Link
                           href="https://www.facebook.com/Clinic-Market-Guadalajara-104759491745597/"
                           isExternal
                         >
@@ -97,7 +110,7 @@ export default function ContactFormBox(props) {
                           isExternal
                         >
                           <IconButton
-                            aria-label="github"
+                            aria-label="instagram"
                             variant="ghost"
                             size="lg"
                             isRound={true}

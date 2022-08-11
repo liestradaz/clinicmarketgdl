@@ -9,7 +9,7 @@ import {
   Link,
   IconButton,
 } from "@chakra-ui/react";
-import { BsFacebook, BsInstagram} from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsWhatsapp} from "react-icons/bs";
 
 export default function Footer() {
   return (
@@ -38,6 +38,19 @@ export default function Footer() {
                       px={5}
                       alignItems="flex-start"
                     >
+              <Link
+                href="https://api.whatsapp.com/send?phone=523322579557"
+                isExternal
+              >
+                <IconButton
+                  aria-label="facebook"
+                  variant="ghost"
+                  size="lg"
+                  isRound={true}
+                  _hover={{ bg: "#636369" }}
+                  icon={<BsWhatsapp size="28px" />}
+                />
+              </Link>
               <Link
                 href="https://www.facebook.com/Clinic-Market-Guadalajara-104759491745597/"
                 isExternal
