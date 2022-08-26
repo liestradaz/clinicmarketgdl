@@ -2,11 +2,6 @@ import * as React from "react";
 import {
   Box,
   Text,
-  Icon,
-  Link,
-  HStack,
-  Stack,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 
 export default function StickyBar() {
