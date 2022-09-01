@@ -18,7 +18,7 @@ export default function StickyBar() {
         /* bgGradient="linear(to-l, blue.300, cyan.500)" */
       >
         <Text fontWeight={"500"}>
-          ¡Servicio a domicilio sin costo en el Área Metropolitana de
+          ¡Servicio a domicilio en el Área Metropolitana de
           Guadalajara!
         </Text>
       </Box>
